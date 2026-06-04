@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid task</title>
+    <style>
+        #con {
+            background-color: blueviolet;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            
+
+        }
+
+        #con div{
+              background-color: aquamarine;
+              display: grid;
+              margin: 10px;
+        }
+
+        img{
+            margin-top: 10px;
+            margin-left: 70px;
+            width: 300px;
+            height: 150px
+        }
+
+        button{
+            margin-left: 170px;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            width: 100px;
+        }
+
+        #one{
+            grid-column: span 2;
+        }
+
+        #two{
+            grid-row: span 2;
+        }
+
+        #three{
+            grid-row: span 2;
+        }
+
+        #five{
+            grid-column: span 2;
+
+        }
+
+        #eight{
+            grid-row: span 2;
+        }
+        #nine{
+            grid-column: span 2;
+        }
+
+    </style>
+</head>
+<body>
+    <div id = "con">
+        <div id = "one" >
+            <img src="./registerationjpg.jpg">
+            <button> Click here </button>
+        </div>
+        <div  id = "two" >
+            <img src="./registerationjpg.jpg">
+            <button> Click here </button>
+        </div>
+        <div  id = "three" >
+            <img src="./registerationjpg.jpg">
+            <button> Click here </button>
+        </div>
+        <div id = "four" >
+            <img src="./registerationjpg.jpg">
+            <button> Click here </button>
+        </div>
+        <div  id = "five" >
+            <img src="./registerationjpg.jpg">
+            <button> Click here </button>
+        </div>
+        <div  id = "six" >
+            <img src="./registerationjpg.jpg">
+            <button> Click here </button>
+        </div>
+        <div  id = "seven" >
+            <img src="./registerationjpg.jpg">
+            <button> Click here </button>
+        </div>
+        <div  id = "eight" >
+            <img src="./registerationjpg.jpg">
+            <button> Click here </button>
+        </div>
+        <div  id = "nine" >
+            <img src="./registerationjpg.jpg">
+            <button> Click here </button>
+        </div>
+    </div>
+</body>
+</html>

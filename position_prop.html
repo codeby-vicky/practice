@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #one{
+            background-color:gray;
+            height:200px;
+            width:200px;
+            position:relative;
+            top:150px;
+            left:150px;
+            z-index:3;
+
+            /*
+                    position:static;
+
+             position:relative;
+
+            
+            */
+        }
+        #two{
+            background-color:pink;
+            height:200px;
+            width:200px;
+            position:relative;
+            top:70px;
+            left:70px;
+            z-index:2;
+        }
+        #three{
+            background-color:green;
+            height:200px;
+            width:200px;
+            position:relative;
+            z-index:1;
+        }
+
+         #fo{
+            background: linear-gradient(135deg, green, blue, purple);
+            height:300px;
+            width:300px;
+            position:relative;
+            z-index:5;
+
+            /*
+                        background: linear-gradient(to right, green, yellow);
+
+                   background: linear-gradient(to bottom, blue, lightgreen);
+
+            
+            */
+            
+         }
+            #four{
+                background-color:orange;
+                height:300px;
+                width:300px;
+                position:relative;
+                top:50px;
+                left:50px;
+                z-index:4;
+            }
+    </style>
+</head>
+<body>
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+    <br>
+
+    <div id="fo">
+    </div>
+
+    <div id="four"></div>
+    
+</body>
+</html>

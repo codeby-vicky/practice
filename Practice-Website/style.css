@@ -1,0 +1,96 @@
+body{
+    width:fit-content;
+    height:fit-content;
+    background-color: whitesmoke;
+}
+
+header{
+    width: max-content;
+    display:flex;
+    background-color: white;
+    border-radius: 10px;
+    margin: 5px;
+    align-items: center;
+    padding: 10px;
+}
+
+header a{
+    color: blue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 28px;
+    text-decoration: none;
+    margin-left: 15px;
+    font-weight: 1000;
+}
+
+#search-bar{
+    align-items: center;
+    display: flex;
+    margin-left: 30px;
+    margin-right: 5px;
+    position: relative;
+}
+
+#search-bar input{
+    position: absolute;
+    width:625px;
+    height: 35px;
+    padding-left: 40px;
+    border-radius: 10px;
+}
+
+#search-bar i{
+    margin-top: 1px;
+    margin-left: 18px;
+    position: relative;
+    z-index: 2;
+}
+
+#user-icon{
+    align-items: center;
+    margin-left: 658px;
+    display: flex;
+}
+
+#user-icon i{
+    margin-right: 10px;
+}
+
+#user-icon a{
+    text-decoration: none;
+    font-size: small;
+    display: flex;
+}
+
+#user-icon h2{
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+#cart{
+    align-items: center;
+    margin-left: 15px;
+    display: flex;
+}
+
+#cart i{
+    margin-right: 10px;
+}
+
+#cart h2{
+    margin-right: 20px;
+}
+
+#seller{
+    align-items: center;
+    margin-left: 15px;
+    display: flex;
+}
+
+#seller i{
+    margin-right: 10px;
+}
+
+#seller h2{
+    margin-right: 20px;
+}

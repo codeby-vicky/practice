@@ -1,0 +1,75 @@
+<html>
+<head>
+    <title>Practice Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('./registerationjpg.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        .container {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        .signup {
+            color:brown;
+            margin-left: 350px;
+            margin-right: 150px;
+            margin-top: 30px;
+            font-size: 20px;
+            font-weight: bold;
+            
+        }
+        .form {
+            color:black;
+            margin-left: 0px;
+            margin-top: 40px;
+            border: 1px solid black;
+            padding: 30px;
+            width: 300px;
+            
+
+        }   
+    </style>
+</head>
+<body>
+
+    <h1 style = "text-align: center; margin-top: 50px;" >Application Form Page</h1><hr style="border: 1px solid black; width: 100px;">
+    <div class = "container">
+    <div class = "signup" >
+        <h1>Sign up Right Now!</h1><hr style="border: 1px solid black; width: 500px; margin-left: -50px;">
+    </div>
+    <div class = "form" >
+    <form>
+        <label for="firstname">firstname:</label><br>
+        <input type="text" name="firstname"><br><br>
+
+        <label for="lastname">lastname:</label><br>
+        <input type="text" name="lastname"><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" name="email"><br><br>
+        
+        <label for="password">Password:</label><br>
+        <input type="password" name="password"><br><br>
+
+        <label for="dateofbirth">Date of Birth:</label><br>
+        <input type="date" name="dateofbirth"><br><br>
+
+        <label for="qualification">Qualification:</label><br>
+        <input type="text" name="qualification"><br><br>
+
+        <label for="course">course:</label><br>
+        <select name="course">
+            <option value="course1">full-stack development</option>
+            <option value="course2">java</option>
+            <option value="course3">python</option>
+        </select><br><br>
+
+        <input type="submit" value="Register"></form>
+        </div>
+    </div>
+</html>
