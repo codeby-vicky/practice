@@ -52,45 +52,53 @@ header a{
     display: flex;
 }
 
-#user-icon i{
-    margin-right: 10px;
+#user-icon a{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s;
 }
 
-#user-icon a{
-    text-decoration: none;
-    font-size: small;
-    display: flex;
+#user-icon a:hover{
+    background-color: #2874f0; /* Flipkart blue */
+}
+
+#user-icon a:hover h2,
+#user-icon a:hover i{
+    color: white;
 }
 
 #user-icon h2{
-    margin-top: 10px;
-    margin-right: 20px;
+    font-size: 20px;
+    color: black;
+    margin: 0;
 }
 
-#cart{
-    align-items: center;
-    margin-left: 15px;
-    display: flex;
-}
-
-#cart i{
+#user-icon i{
+    font-size: 20px;
+    color: black;
     margin-right: 10px;
 }
 
-#cart h2{
-    margin-right: 20px;
-}
-
-#seller{
-    align-items: center;
-    margin-left: 15px;
+#cart a,
+#seller a{
     display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 13px;
 }
 
-#seller i{
-    margin-right: 10px;
-}
-
+#cart h2,
 #seller h2{
-    margin-right: 20px;
+    color: black;
+    margin: 0;
+}
+
+#cart i,
+#seller i{
+    color: black;
+    margin-right: 11px;
 }
