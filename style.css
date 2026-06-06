@@ -5,13 +5,13 @@ body{
 }
 
 header{
-    width: max-content;
+    width:1320px;
     display:flex;
     background-color: white;
     border-radius: 10px;
-    margin: 5px;
     align-items: center;
-    padding: 10px;
+    padding: 5px;
+    margin-bottom: 10px;
 }
 
 header a{
@@ -27,13 +27,13 @@ header a{
     align-items: center;
     display: flex;
     margin-left: 30px;
-    margin-right: 5px;
+    margin-right: 0px;
     position: relative;
 }
 
 #search-bar input{
     position: absolute;
-    width:625px;
+    width:645px;
     height: 35px;
     padding-left: 40px;
     border-radius: 10px;
@@ -48,7 +48,7 @@ header a{
 
 #user-icon{
     align-items: center;
-    margin-left: 658px;
+    margin-left: 660px;
     display: flex;
 }
 
@@ -88,17 +88,46 @@ header a{
     align-items: center;
     text-decoration: none;
     font-size: 16px;
-    margin-right: 13px;
+    margin-right: 10px;
 }
 
 #cart h2,
 #seller h2{
     color: black;
-    margin: 0;
+    margin: 1px;
 }
 
 #cart i,
 #seller i{
     color: black;
-    margin-right: 11px;
+    margin-right: 5px;
 }
+
+#more{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: -30px;
+}
+
+#more a{
+    color: black;
+    font-size: 24px;
+    font-weight: 10000;
+    display: inline-block;
+    transform: rotate(90deg);
+    margin-left: 27px;
+}
+
+#product-select{
+    display:flex;
+    background-color: #2874f0;
+    width: 1330px;
+    height: 130px;
+    margin-top: 10px;
+    margin-left:0px;
+    border-radius: 10px;
+}
+
+
