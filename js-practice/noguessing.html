@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1> Number Gueesing Challenge</h1>
+    <input id = "guessnumber" placeholder="Guess value here">
+    <button onclick="challenge()">Click</button>
+    <h5 id = "computertext"></h5>
+    <h3 id="result">Let's  see you are right or wrong</h3>
+</body>
+<script>
+    var guessnumber = document.getElementById("guessnumber")
+    var computernumber = Math.floor(Math.random()*10) + 1
+    var result = document.getElementById("result")
+    var computertext = document.getElementById("computertext")
+    function challenge()
+    {
+        var guess = guessnumber.value
+        if (guess == computernumber)
+    {
+        result.textContent = "Right! Hurrayyy"
+        computertext.textContent = "Pc's value is " +computernumber;
+    }
+    else{
+        result.textContent = " Oops! Wrong, correct it next time"
+        computertext.textContent = "Pc's value is " +computernumber;
+
+    }
+    }
+</script>
+</body>
+</html>
