@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="pvr()">click</button>
+    <script>
+        function pvr() {
+            console.log("Welcome To PVR Grand Galada");
+            const select = prompt("Select any one \n1. Customer \n2. Admin");
+            if (select !== '1') {
+                console.log('Only Customer flow is implemented.');
+                return;
+            }
+
+            console.log("Login here");
+            const custname = prompt("Enter your Name:");
+            const custpassword = prompt("Enter your Password:");
+            console.log("You Successfully Logged in!");
+
+            function movie() {
+                const movieselect = prompt(
+                    "Select the movie \n1. Leo \n2. RRR \n3. Kaaruppu \n4. Dude \n5. LIK"
+                );
+
+                if (movieselect === '1') console.log("Your movie Leo Available here!");
+                else if (movieselect === '2') console.log("Your movie RRR Available here!");
+                else if (movieselect === '3') console.log("Your movie Kaaruppu Available here!");
+                else if (movieselect === '4') console.log("Your movie Dude Available here!");
+                else if (movieselect === '5') console.log("Your movie LIK Available here!");
+                else {
+                    console.log("Please Select from the list!");
+                    return;
+                }
+
+                console.log("Select your Preferred Seat");
+
+                for (let i = 1; i <= 100; i += 10) {
+                    let row = '';
+                    for (let j = i; j < i + 10; j++) row += j + ' ';
+                    console.log(row.trim());
+                }
+
+                const totalseat = parseInt(prompt("Enter the total number of seats:"), 10) || 0;
+                for (let i = 0; i < totalseat; i++) {
+                    const seatnumber = prompt("Enter the Seat number:");
+                    console.log('Seat booked:', seatnumber);
+                }
+
+                console.log("Your Seats are booked");
+                console.log("Thank you for buying!");
+            }
+
+            do {
+                movie();
+                var visit = prompt("Enter 1 to Buy again or any other key to Exit");
+            } while (visit === '1');
+        }
+    </script>
+</body>
+</html>
+</html>

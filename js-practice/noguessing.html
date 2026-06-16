@@ -6,31 +6,67 @@
     <title>Document</title>
 </head>
 <body>
-    <h1> Number Gueesing Challenge</h1>
+    <h1> Number Guessing Challenge</h1>
     <input id = "guessnumber" placeholder="Guess value here">
     <button onclick="challenge()">Click</button>
     <h5 id = "computertext"></h5>
     <h3 id="result">Let's  see you are right or wrong</h3>
+    <h4 id = "chance"></h4>
+    <h4 id = "totalchance"></h4>
 </body>
 <script>
-    var guessnumber = document.getElementById("guessnumber")
-    var computernumber = Math.floor(Math.random()*10) + 1
-    var result = document.getElementById("result")
-    var computertext = document.getElementById("computertext")
-    function challenge()
-    {
-        var guess = guessnumber.value
-        if (guess == computernumber)
-    {
-        result.textContent = "Right! Hurrayyy"
-        computertext.textContent = "Pc's value is " +computernumber;
-    }
-    else{
-        result.textContent = " Oops! Wrong, correct it next time"
-        computertext.textContent = "Pc's value is " +computernumber;
+var guessnumber = document.getElementById("guessnumber");
+var computernumber = Math.floor(Math.random() * 10) + 1;
 
+var result = document.getElementById("result");
+var computertext = document.getElementById("computertext");
+
+var chanceText = document.getElementById("chance");
+var totalchanceText = document.getElementById("totalchance");
+
+var chances = 10;
+var totalUsed = 0;
+
+chanceText.textContent = "Chances Left: " + chances;
+
+function challenge()
+{
+    var guess = guessnumber.value;
+
+    chances--;
+    totalUsed++;
+
+    chanceText.textContent =
+    "Chances Left: " + chances;
+
+    totalchanceText.textContent =
+    "Total Chances Used: " + totalUsed;
+
+    if(guess == computernumber)
+    {
+        result.textContent = "Right! Hurrayyy";
+
+        computertext.textContent =
+        "PC's value is " + computernumber;
     }
+    else
+    {
+        result.textContent =
+        "Oops! Wrong, correct it next time";
+
+        computertext.textContent =
+        "PC's value is " + computernumber;
     }
+
+    if(chances <= 0)
+    {
+        result.textContent =
+        "Game Over! No chances left.";
+
+        computertext.textContent =
+        "PC's value was " + computernumber;
+    }
+}
 </script>
 </body>
 </html>
