@@ -1,0 +1,27 @@
+Good morning, sir/madam.
+
+My name is Vignesh M N, and I am currently pursuing a Bachelor of Technology 
+in Information Technology at SRM Valliammai Engineering College.
+
+I am in my final year with a CGPA of 9.02. During my academic journey, 
+I developed a strong interest in software engineering, backend development, and problem-solving.
+
+My technical skills include Python, Java, SQL, Flask, REST APIs, Git, 
+and object-oriented programming concepts. I am also familiar with debugging, 
+testing, version control, and software development life cycle practices.
+
+I completed a Full-Stack Python internship at Approtech R&D Solutions, 
+where I gained hands-on experience in backend development using Python and 
+Flask. I worked with REST APIs, SQL databases, validation workflows, and 
+debugging activities, which helped me understand real-world software development processes.
+
+I have worked on multiple projects, including HeisenParser, a code analysis 
+and visualization tool, MedFlow-AI, an intelligent data processing system, 
+and GAN Guard, an AI-based surveillance anomaly detection system. These 
+projects helped me strengthen my development, problem-solving, and analytical skills.
+
+I am currently looking for an opportunity to start my professional career 
+in software engineering, where I can contribute to impactful projects while 
+continuously learning and improving my technical expertise.
+
+Thank you.

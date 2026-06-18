@@ -43,9 +43,7 @@ const Pract = () => {
                     <h4>joining course {h.course}</h4>
                     <h4>paid fees {h.fees}</h4>
                     <button onClick={()=>handledelete(h.id)}>save</button>
-
-
-
+                    
                 </div>
             )
         })}
