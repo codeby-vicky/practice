@@ -40,8 +40,8 @@ const Pract = () => {
             return(
                 <div key={h.id}>
 
-                    <h4>joing course {h.course}</h4>
-                    <h4>pais fees {h.fees}</h4>
+                    <h4>joining course {h.course}</h4>
+                    <h4>paid fees {h.fees}</h4>
                     <button onClick={()=>handledelete(h.id)}>save</button>
 
 
