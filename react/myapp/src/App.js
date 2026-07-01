@@ -1,13 +1,25 @@
-import './App.css';
-import Pract1 from './Pract1';
+import React from 'react'
+import './App.css'
+import {BrowserRouter, Routes, Route} from 'react-router-dom'
+import Header from './Header'
+import Content from './Content'
+import Content2 from './Content2'
+import Pagenotfound from './Pagenotfound'
 
-function App() {
+
+const App = () => {
   return (
-    <div className="App">
-      {/* <Pract /> */}
-      <Pract1 />
+    <div>
+      <BrowserRouter>
+      <Routes>
+        <Route path = "/" element = {<Header />} />
+        <Route path="/about" element={<Content />}/>
+        <Route path="/read" element={<Content2 />}/>
+        <Route path='*' element={<Pagenotfound />}/>
+      </Routes>
+      </BrowserRouter>
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
