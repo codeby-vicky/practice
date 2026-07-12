@@ -30,7 +30,7 @@ const Content = () => {
       setPrice("");
       setOffer("");
       setImage("");
-      navi("/read")
+      navi("/content2")
     } 
     
     catch (error) {
