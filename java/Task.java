@@ -70,7 +70,7 @@ public class Task {
                 break;
             }
 
-
+sc.close();
                 
         }
         
