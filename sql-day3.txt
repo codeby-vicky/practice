@@ -1,0 +1,19 @@
+store:
+
+it is used to done with DELIMITER$$
+
+create procedure functionname(in pid int)
+
+begin 
+    seelect * from tablename
+    select name,city from tabname where id = pid;
+end // or $$
+
+delimiter;
+
+call functionname(1)
+
+
+index:
+
+create index index-name on emp3(name);
