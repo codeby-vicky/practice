@@ -2,6 +2,7 @@
     "java.compile.nullAnalysis.mode": "automatic",
     "java.project.sourcePaths": [
         "java",
-        "demo/src/main/java/com/example/demo"
+        "demo/src/main/java/com/example/demo",
+        "anudip/SouthIndia/src/org/india"
     ]
 }
