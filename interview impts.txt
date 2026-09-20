@@ -1,0 +1,41 @@
+string = abcabcbd longest substring without duplicate character and count it
+ans = 3
+
+
+given array 2,7,11,19,23 target = 9, which two nos will return ans when added(two sum)
+ans 2,7
+
+prime no
+
+fibonocci series
+
+factorial
+
+sum of digits
+
+find lcm and gcd
+
+string reverse without using built in methods
+
+
+palindrome 
+1221 = 1221
+
+
+find power of number without using math.pow fn 
+
+remove duplicates in an array/find unique elements
+
+find frequency of each element/character
+
+merge two sorted arrays without using inbuilt fns
+
+count vowels
+
+check anagram
+
+swap 2 numbers without using temp variable
+
+
+
+
